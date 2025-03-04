@@ -1,0 +1,12 @@
+{
+    "name": "Ali",
+    "age": 21,
+    "city": "Bangalore",
+    "skills": [
+        "Python",
+        "Java",
+        "MERN"
+    ],
+    "email": "ali@example.com",
+    "phone": "9876543210"
+}
