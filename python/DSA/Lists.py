@@ -4,6 +4,29 @@
 my_list = [10, 20, 30, 40, 50]
 print("Original List:", my_list)
 
+try:
+    result=0
+    for num in my_list:
+        result = result+num
+    print(f"the result is {result}")
+except IndexError:
+    print("error",KeyError)
+
+
+# try:
+#     my_list=[1,2,3,4,5,6]
+#     print(my_list[4])
+# except IndexError:
+#     print("index of range")
+
+len = len(my_list)
+index = 3
+
+if index < 0 or index >= len:
+    print("Index out of range")
+else:
+    print(my_list[index])
+
 # 2️⃣ Accessing elements
 print("First element:", my_list[0])   # Accessing by index
 print("Last element:", my_list[-1])   # Negative indexing
