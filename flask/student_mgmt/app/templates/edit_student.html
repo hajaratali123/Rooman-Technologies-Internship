@@ -1,0 +1,12 @@
+ 
+<!-- templates/edit_student.html -->
+{% extends 'base.html' %}
+{% block title %}Edit Student{% endblock %}
+{% block content %}
+<h2>Edit Student</h2>
+<form method="POST">
+    <input type="text" name="name" value="{{ student.name }}" required>
+    <input type="text" name="age" value="{{ student.age }}" required>
+    <input type="submit" value="Update Student">
+</form>
+{% endblock %}
